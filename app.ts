@@ -20,20 +20,34 @@ const person = {
 }
 
 
-if(person.role === level.ADMIN){
-    console.log("You are admin :)")
-} else if (person.role === level.AUTHOR){
-    console.log("You are the author")
+// if(person.role === level.ADMIN){
+//     console.log("You are admin :)")
+// } else if (person.role === level.AUTHOR){
+//     console.log("You are the author")
+// }
+
+function Combine(n1 : number, n2 : number, cb: (num: number)=> void){
+let result = n1 + n2;
+cb(result);
 }
 
-function Combine(n1 : number, n2 : string){
-return n1 + n2
-}
 
+
+
+// let someVal: (a: number, b: number)=> number;
+
+// someVal = Combine: void;
+
+//Void nad Anonymous Function
+console.log(Combine(1,2, (result)=>{
+console.log(result)
+}));
 // console.log(level.ADMIN)
 
 
 // for (let item of person.arr){
 //     console.log(item)
 // }
+
+
 
