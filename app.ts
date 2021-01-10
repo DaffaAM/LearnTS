@@ -39,9 +39,9 @@ cb(result);
 // someVal = Combine: void;
 
 //Void nad Anonymous Function
-console.log(Combine(1,2, (result)=>{
+Combine(1,4, (result)=>{
 console.log(result)
-}));
+});
 // console.log(level.ADMIN)
 
 
