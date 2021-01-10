@@ -1,6 +1,6 @@
 enum level {ADMIN, READONLY, AUTHOR}
 
-type Tup = number | string;
+type Tup = number | string; //union
 type Descriptor = 'as-number' | 'as-string'
 // const person : {
 //     name: string;
